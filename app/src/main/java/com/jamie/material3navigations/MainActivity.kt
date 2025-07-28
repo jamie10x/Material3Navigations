@@ -14,7 +14,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Material3NavigationsTheme {
-                NavBar()
+               // NavBar()
+                NavRailBar(activity = this)
             }
         }
     }
