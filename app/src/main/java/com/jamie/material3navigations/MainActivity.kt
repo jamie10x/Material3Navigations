@@ -15,7 +15,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Material3NavigationsTheme {
                // NavBar()
-                NavRailBar(activity = this)
+               // NavRailBar(activity = this)
+                NavDrawer()
             }
         }
     }
